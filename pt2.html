@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Disable is a attribute which we used to disable the input field -->
+    <!-- <input type="text" name="username" disabled value="Tarun Joshi">
+    <input type="text" name="username" value="Tarun Joshi"> -->
+
+    <!-- readonly attribute we use to read the disabled field we do not do any change on it -->
+    <input type="text" name="username" disabled value="Tarun Joshi1">
+    <input type="text" name="username2" readonly value="Tarun Joshi1">
+
+    <br><br>
+
+    <!-- Autocompelete parameter is used to give suggestion to the user during input time -->
+    <input type="text" name="email" autocomplete="on"><br> <br>
+
+    <!-- Capure attribute in Input tag and its type -->
+    <input type="file" name="userphoto" capture="Environment"><br>
+<!-- Min and Max attribute -->
+    <input type="number" name="Age" min="10" max="30" value="15"><br><br>
+
+    <!-- Maximum length parameter we can use validations also by using minlength parameter onclick="alert('userphone less than minlength not valid')"-->
+     <input type="tel" name="userphone" maxlength="10" minlength="8">
+</body>
+</html>
